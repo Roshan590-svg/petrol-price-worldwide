@@ -1,5 +1,14 @@
 const countries = [
   {
+    country: 'Pakistan',
+    flag: '🇵🇰',
+    regular: 1.18,
+    premium: 1.41,
+    diesel: 1.09,
+    updated: 'Today, 08:15',
+    trend: [1.08, 1.1, 1.13, 1.14, 1.15, 1.17, 1.18],
+  },
+  {
     country: 'India',
     flag: '🇮🇳',
     regular: 95.44,
@@ -140,7 +149,7 @@ function populateCountryOptions() {
     countrySelect.appendChild(option);
   });
 
-  countrySelect.value = 'India';
+  countrySelect.value = 'Pakistan';
 }
 
 function getSelectedCountryData() {
